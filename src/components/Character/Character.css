@@ -1,0 +1,22 @@
+.character {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.character__detailed_info {
+  margin-left: 10px;
+}
+.character__img_small {
+  width: 100px;
+}
+.character__img_xs {
+  width: 55px;
+}
+.character__episodes {
+  white-space: nowrap;
+  width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*# sourceMappingURL=Character.css.map */

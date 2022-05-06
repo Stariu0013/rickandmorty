@@ -1,0 +1,24 @@
+.character {
+    display: flex;
+    align-items: center;
+
+    margin: 25px 0;
+
+    &__detailed_info {
+        margin-left: 10px;
+    }
+
+    &__img_small {
+        width: 100px;
+    }
+    &__img_xs {
+        width: 55px;
+    }
+
+    &__episodes {
+        white-space: nowrap;
+        width: 500px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

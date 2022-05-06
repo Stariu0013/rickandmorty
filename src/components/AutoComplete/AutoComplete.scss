@@ -1,0 +1,27 @@
+.auto_complete {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+
+    &__input {
+        width: 90%;
+        height: 50px;
+
+        border: none;
+        border-radius: 10px;
+
+        background-color: #5ba3f1;
+
+        color: white;
+        outline: none;
+        padding-left: 15px;
+
+        &::placeholder {
+            color: white;
+        }
+    }
+
+    &__characters {
+        position: absolute;
+    }
+}
